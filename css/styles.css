@@ -138,20 +138,21 @@ body {
   color: var(--accent-color);
 }
 
+/* .contacts-item {
+  display: inline-flex;
+} */
+
 .contacts-link {
   color: var(--text-color);
+  display: flex;
+  align-items: center;
 }
 
+.mail-icon,
 .phone-icon {
-  /* width: 10px;
-  height: 16px; */
   margin-right: 10px;
   fill: currentColor;
 }
-
-/* .phone-icon :hover {
-  fill: var(--accent-color);
-} */
 
 /* ------------------------Hero */
 
@@ -360,7 +361,7 @@ body {
 
 /* -------------------Clients */
 
-.clents-list {
+.clients-list {
   display: flex;
   gap: 30px;
   text-align: center;
@@ -371,9 +372,15 @@ body {
   max-width: 170px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: #afb1b8;
 }
 
-.clients-link:hover {
+.clients-item:hover {
+  color: var(--accent-color);
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 /* --------------------Footer */
