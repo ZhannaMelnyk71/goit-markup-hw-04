@@ -142,6 +142,17 @@ body {
   color: var(--text-color);
 }
 
+.phone-icon {
+  /* width: 10px;
+  height: 16px; */
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+/* .phone-icon :hover {
+  fill: var(--accent-color);
+} */
+
 /* ------------------------Hero */
 
 .hero {
@@ -233,10 +244,6 @@ body {
 
 /* --------------------Advantages */
 
-.advantages-container {
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
-}
 .advantages {
   display: flex;
   gap: 30px;
@@ -258,19 +265,19 @@ body {
 }
 
 .icon-antenna::before {
-  background-image: url(../images/advantages/antenna.svg);
+  background-image: url(../images/icons/antenna.svg);
 }
 
 .icon-clock::before {
-  background-image: url(../images/advantages/clock.svg);
+  background-image: url(../images/icons/clock.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../images/advantages/diagram.svg);
+  background-image: url(../images/icons/diagram.svg);
 }
 
 .icon-astranaut::before {
-  background-image: url(../images/advantages/astronaut.svg);
+  background-image: url(../images/icons/astronaut.svg);
 }
 
 .advantages-title {
@@ -312,11 +319,6 @@ body {
   background-color: #f5f4fa;
 }
 
-.team-container {
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
-}
-
 .team-list {
   display: flex;
   gap: 30px;
@@ -354,6 +356,24 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   font-weight: 400;
+}
+
+/* -------------------Clients */
+
+.clents-list {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.clients-item {
+  padding: 16px 32px;
+  max-width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-link:hover {
 }
 
 /* --------------------Footer */
