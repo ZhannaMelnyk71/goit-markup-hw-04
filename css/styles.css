@@ -319,7 +319,7 @@ body {
 }
 
 .team-item {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   width: calc((100%-90px) / 4);
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -329,11 +329,12 @@ body {
 }
 
 .team-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
 }
 
 .team-name {
+  margin-top: 30px;
   color: var(--main-title-color);
   font-weight: 500;
   font-size: 16px;
@@ -342,6 +343,7 @@ body {
 }
 .team-info {
   margin-top: 10px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -353,6 +355,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .team-soc-link {
@@ -385,21 +388,23 @@ body {
   justify-content: center;
 }
 
-/* .clients-link {
-  width: 106px;
-  height: 60px;
-} */
-
 .clients-item {
-  padding: 16px 32px;
-  max-width: 170px;
+  /* padding: 16px 32px; */
+  /* max-width: 170px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
 }
 
-.clients-item:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-icon {
@@ -544,14 +549,17 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* .portfolio-link:hover,
+.portfolio-link:hover,
 .portfolio-link:focus {
   color: var(--accent-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
+}
 
-.portfolio-link:hover,
+.portfolio-link {
+  display: block;
+}
+/* .portfolio-link:hover,
 .portfolio-link:focus {
   color: var(--accent-color);
 }
@@ -560,7 +568,7 @@ body {
   color: var(--accent-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* -------------------Cards */
 
