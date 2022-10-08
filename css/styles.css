@@ -138,10 +138,6 @@ body {
   color: var(--accent-color);
 }
 
-/* .contacts-item {
-  display: inline-flex;
-} */
-
 .contacts-link {
   color: var(--text-color);
   display: flex;
@@ -475,8 +471,9 @@ body {
   align-items: baseline;
 }
 
-.second-footer-block .footer-soc-title {
-  margin-bottom: 19px;
+.footer-soc-title {
+  margin-bottom: 20px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
